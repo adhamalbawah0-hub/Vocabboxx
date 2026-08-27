@@ -1,0 +1,15 @@
+{
+  "name": "VocabBox — مفرداتي",
+  "short_name": "VocabBox",
+  "description": "تطبيق تعلم مفردات إنجليزي-عربي متكامل",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14120F",
+  "theme_color": "#14120F",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
