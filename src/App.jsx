@@ -45,7 +45,8 @@ const DEFAULT_SETTINGS = {
   sessionSize: 10,
 };
 
-const AI_MODEL = 'claude-sonnet-4-6';
+const AI_MODEL = 'llama-3.3-70b-versatile';
+
 
 /* ------------------------------ Utilities ------------------------------- */
 const todayKey = (d = new Date()) => {
