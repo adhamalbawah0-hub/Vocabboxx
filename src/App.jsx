@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef, useMemo, Suspense, lazy } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import * as mammoth from 'mammoth';
 import {
   Home, Plus, RotateCcw, Settings as SettingsIcon, Volume2,
