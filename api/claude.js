@@ -18,8 +18,8 @@ export default async function handler(req, res) {
         'Authorization': `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
-        messages: req.body.messages,
+        model: 'llama-3.1-8b-instant',
+        messages: req.body.messages || [{ role: 'user', content: req.body.prompt || 'Hello' }],
         max_tokens: req.body.max_tokens || 1000,
       }),
     });
